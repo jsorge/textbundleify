@@ -9,5 +9,5 @@ let path = Path.current
 do {
     try TextBundleify.start(in: path, pathToAssets: nil)
 } catch {
-    Console.write(error.localizedDescription)
+    Console.write(error.localizedDescription, to: .error)
 }

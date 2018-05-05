@@ -6,13 +6,6 @@ private let infoJSON = """
     "version":              2,
     "type":                 "net.daringfireball.markdown",
     "transient":            true,
-    "creatorURL":           "file:///Applications/MyApp",
-    "creatorIdentifier":    "com.example.myapp",
-    "sourceURL":            "file:///Users/johndoe/Documents/mytext.markdown",
-    "com.example.myapp":    {
-                                "version":    9,
-                                "customKey":  "aCustomValue"
-                            }
 }
 """
 
