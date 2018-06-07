@@ -67,7 +67,7 @@ public struct TextBundleify {
             
             for match in matches {
                 let range = match.range
-                let fullImageMarkdown = (fileAsString as NSString).substring(with: range)
+                let fullImageMarkdown = NSString(string: fileAsString).substring(with: range)
                 // Formatted like ![](/path/to/image.jpg)
                 guard let filepath = fullImageMarkdown.split(separator: "(")
                     .last?
